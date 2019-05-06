@@ -1,0 +1,25 @@
+{
+    "name": "atomsit/event",
+    "description": "",
+    "authors": [
+        {
+            "name": "ATOMSit",
+            "email": "contact@atomsit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Event\\Providers\\EventServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Event\\": ""
+        }
+    }
+}
